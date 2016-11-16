@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class GoogleHelpersCallbacks : MonoBehaviour
+public class GoogleHelpersCallbacks : MonoBehaviour, IGoogleHelpersCallbacks
 {
     [SerializeField] private GoogleHelpersWrapper googleHelpersWrapper;
     [SerializeField] private Text DisplayNameText;
